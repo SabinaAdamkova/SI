@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kočičí zahrada – útulek pro kočky</title>
+  <meta name="description" content="Kočičí zahrada je malý útulek pro kočky. Najděte si nového parťáka, staňte se dobrovolníkem nebo nás podpořte.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top" aria-label="Kočičí zahrada – úvod">
+        <img src="images/logo.svg" alt="" width="36" height="36">
+        <span>Kočičí zahrada</span>
+      </a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Otevřít menu">
+      <label for="menu-toggle" class="menu-button" aria-hidden="true"><span></span></label>
+      <nav class="nav" aria-label="Hlavní navigace">
+        <a href="#adopce">Kočky k adopci</a>
+        <a href="#postup">Jak adoptovat</a>
+        <a href="#pomoc">Jak pomoci</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ÚVOD -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Útulek pro kočky od roku 2014</p>
+          <h1>Každá kočka si zaslouží svůj parapet.</h1>
+          <p class="lead">Staráme se o opuštěné a nalezené kočky, léčíme je, socializujeme a hledáme jim domov, kde budou mít klid, teplo a někoho, kdo je pohladí.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#adopce">Prohlédnout kočky</a>
+            <a class="btn btn-ghost" href="#pomoc">Chci pomoct</a>
+          </div>
+          <dl class="stats">
+            <div><dt>Umístěných koček</dt><dd>1 240</dd></div>
+            <div><dt>Právě u nás</dt><dd>38</dd></div>
+            <div><dt>Dobrovolníků</dt><dd>65</dd></div>
+          </dl>
+        </div>
+        <figure class="hero-photo">
+          <img src="images/hero.jpg" alt="Kočka odpočívá a dívá se do objektivu" width="1200" height="1400">
+        </figure>
+      </div>
+    </section>
+
+    <!-- O NÁS -->
+    <section class="about">
+      <div class="wrap about-grid">
+        <figure class="about-photo">
+          <img src="images/o-nas.jpg" alt="Kočka v útulku" width="1200" height="900" loading="lazy">
+        </figure>
+        <div>
+          <p class="eyebrow">O nás</p>
+          <h2>Malý útulek s velkým srdcem</h2>
+          <p>Kočičí zahrada vznikla jako spolek několika přátel, kterým nebylo lhostejné, kolik koček žije na ulici. Dnes máme vlastní budovu se zahradou, karanténní stanici a tým dobrovolníků, kteří se o kočky starají každý den.</p>
+          <p>Všechny kočky od nás odchází <strong>vyšetřené veterinářem, očkované, odčervené, čipované a kastrované</strong>. U každé víme, jakou má povahu, a rádi vám pomůžeme vybrat tu, která k vám bude pasovat.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KOČKY K ADOPCI -->
+    <section class="adoption" id="adopce">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Kočky k adopci</p>
+          <h2>Hledají domov</h2>
+          <p>Výběr z koček, které jsou připravené na adopci. Ostatní vám rádi představíme osobně.</p>
+        </div>
+
+        <ul class="cat-grid">
+          <li class="cat-card">
+            <img src="images/micka.jpg" alt="Kočka Micka" width="800" height="800" loading="lazy">
+            <div class="cat-body">
+              <div class="cat-title"><h3>Micka</h3><span class="tag">2 roky</span></div>
+              <p class="cat-meta">Kočka · kastrovaná</p>
+              <p>Klidná a mazlivá. Nejradši tráví odpoledne na klíně a pozoruje ptáky z okna. Hodí se do bytu.</p>
+            </div>
+          </li>
+          <li class="cat-card">
+            <img src="images/oskar.jpg" alt="Kocour Oskar" width="800" height="800" loading="lazy">
+            <div class="cat-body">
+              <div class="cat-title"><h3>Oskar</h3><span class="tag">4 roky</span></div>
+              <p class="cat-meta">Kocour · kastrovaný</p>
+              <p>Sebevědomý pán domu. Vychází s dětmi, se psy zatím zkušenost nemá. Ocení zabezpečený balkon.</p>
+            </div>
+          </li>
+          <li class="cat-card">
+            <img src="images/luna.jpg" alt="Kočka Luna" width="800" height="800" loading="lazy">
+            <div class="cat-body">
+              <div class="cat-title"><h3>Luna</h3><span class="tag">8 měsíců</span></div>
+              <p class="cat-meta">Kočka · kastrovaná</p>
+              <p>Hravá a zvědavá. Ideálně k dalšímu mladému kotěti nebo do rodiny, která má na hraní čas.</p>
+            </div>
+          </li>
+          <li class="cat-card">
+            <img src="images/bertik.jpg" alt="Kocour Bertík" width="800" height="800" loading="lazy">
+            <div class="cat-body">
+              <div class="cat-title"><h3>Bertík</h3><span class="tag">10 let</span></div>
+              <p class="cat-meta">Kocour · kastrovaný · senior</p>
+              <p>Pohodář, který už nic nemusí. Hledá klidný domov, kde dožije v teple a pohodlí.</p>
+            </div>
+          </li>
+          <li class="cat-card">
+            <img src="images/pepa.jpg" alt="Kocour Pepa" width="800" height="800" loading="lazy">
+            <div class="cat-body">
+              <div class="cat-title"><h3>Pepa</h3><span class="tag">1 rok</span></div>
+              <p class="cat-meta">Kocour · kastrovaný</p>
+              <p>Energický lovec hraček. Rád by šel do domu se zahradou nebo k jiné hravé kočce.</p>
+            </div>
+          </li>
+          <li class="cat-card">
+            <img src="images/zofie.jpg" alt="Kočka Žofie" width="800" height="800" loading="lazy">
+            <div class="cat-body">
+              <div class="cat-title"><h3>Žofie</h3><span class="tag">6 let</span></div>
+              <p class="cat-meta">Kočka · kastrovaná</p>
+              <p>Zpočátku nesmělá, ale když si zvykne, je to věrná společnice. Hledá klidnou domácnost bez dětí.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- POSTUP ADOPCE -->
+    <section class="steps" id="postup">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Jak adoptovat</p>
+          <h2>Od první návštěvy po nový domov</h2>
+        </div>
+        <ol class="step-list">
+          <li>
+            <h3>Ozvěte se nám</h3>
+            <p>Napište nebo zavolejte, o kterou kočku máte zájem, a domluvíme termín návštěvy.</p>
+          </li>
+          <li>
+            <h3>Seznámení</h3>
+            <p>Přijďte se s kočkou seznámit. Řekneme vám vše o její povaze, zdraví a potřebách.</p>
+          </li>
+          <li>
+            <h3>Adopční smlouva</h3>
+            <p>Podepíšeme smlouvu a uhradíte adopční poplatek 1 500 Kč, který pokrývá část veterinární péče.</p>
+          </li>
+          <li>
+            <h3>Cesta domů</h3>
+            <p>Kočku si odvezete v přepravce. Po adopci jsme vám kdykoli k dispozici s radou.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- JAK POMOCI -->
+    <section class="help" id="pomoc">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Jak pomoci</p>
+          <h2>Pomoct může každý</h2>
+        </div>
+        <div class="help-grid">
+          <article class="help-item">
+            <img src="images/ikona-dar.svg" alt="" width="40" height="40">
+            <h3>Finanční dar</h3>
+            <p>Každá koruna jde na krmivo, léky a veterinu. Na dar vám vystavíme potvrzení pro daňové účely.</p>
+            <p class="account">Č. ú. 123456789/0100</p>
+          </article>
+          <article class="help-item">
+            <img src="images/ikona-ruka.svg" alt="" width="40" height="40">
+            <h3>Dobrovolnictví</h3>
+            <p>Pomozte s úklidem, krmením, socializací plachých koček nebo s fotkami pro naše inzeráty.</p>
+          </article>
+          <article class="help-item">
+            <img src="images/ikona-domek.svg" alt="" width="40" height="40">
+            <h3>Dočasná péče</h3>
+            <p>Vezměte si domů kotě nebo kočku v rekonvalescenci, než najde trvalý domov. Vše potřebné dodáme.</p>
+          </article>
+          <article class="help-item">
+            <img src="images/ikona-miska.svg" alt="" width="40" height="40">
+            <h3>Materiální sbírka</h3>
+            <p>Uvítáme kvalitní granule, kapsičky, podestýlku, deky a hračky. Přinést je můžete v otevírací době.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="contact" id="kontakt">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow">Kontakt</p>
+          <h2>Přijďte se podívat</h2>
+          <p>Návštěvy jsou možné v otevírací době, ideálně po předchozí domluvě.</p>
+          <address>
+            <strong>Kočičí zahrada, z. s.</strong><br>
+            Zahradní 12<br>
+            110 00 Praha 1
+          </address>
+          <p class="contact-lines">
+            <a href="tel:+420123456789">+420 123 456 789</a><br>
+            <a href="mailto:info@kocicizahrada.cz">info@kocicizahrada.cz</a>
+          </p>
+        </div>
+        <div class="hours">
+          <h3>Otevírací doba</h3>
+          <table>
+            <tbody>
+              <tr><th scope="row">Pondělí – pátek</th><td>14:00 – 18:00</td></tr>
+              <tr><th scope="row">Sobota</th><td>10:00 – 16:00</td></tr>
+              <tr><th scope="row">Neděle</th><td>zavřeno</td></tr>
+            </tbody>
+          </table>
+          <p class="note">O svátcích se otevírací doba může lišit. Aktuální informace najdete na našem Facebooku a Instagramu.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2026 Kočičí zahrada, z. s. · IČO 12345678</p>
+      <p class="credits">Fotografie: <a href="https://unsplash.com" rel="noopener">Unsplash</a> (Unsplash License).</p>
+    </div>
+  </footer>
+
+</body>
+</html>
